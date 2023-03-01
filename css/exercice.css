@@ -8,9 +8,11 @@
 .exercice-baseline-2 .container-small {
   display: flex;
   flex-direction: row-reverse;
-  align-items: baseline;
 }
 
+.exercice-baseline-2 .element-pink {
+  order: 2;
+}
 
 /* 3. exercice-baseline-3 */
 .exercice-baseline-3 .container-small {
