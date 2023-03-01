@@ -33,5 +33,16 @@
 }
 
 /* 6. exercice-all-in-1 */
+.exercice-all-in-1 .container-set {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  
+  flex-direction: column-reverse
+}
+
+.exercice-all-in-1 .element-green {
+  order: -1;
+}
+
 
 /* 7. exercice-all-in-2 */
