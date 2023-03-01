@@ -46,3 +46,18 @@
 
 
 /* 7. exercice-all-in-2 */
+.exercice-all-in-2 .container-small {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-items: baseline;
+  align-content: center;
+}
+
+.exercice-all-in-2 .element-blue {
+  flex-grow: 2;
+  order: -2;
+}
+.exercice-all-in-2 .element-yellow {
+  flex-grow: 1;
+}
